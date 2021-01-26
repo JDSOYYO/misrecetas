@@ -1,0 +1,19 @@
+.padre {
+    display: flex;
+    width: 950px;
+    height: 230px;
+    background-color: rgb(39, 39, 39);
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.hijo {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 1;
+    background-color: rgb(117, 117, 117);
+    border: 2px solid rgb(197, 197, 197)
+
+}
