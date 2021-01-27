@@ -1,0 +1,26 @@
+.padre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+    width: 950px;
+    height: 730px;
+    background-color: rgb(39, 39, 39);
+}
+
+.hijoarriba {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(117, 117, 117);
+    border: 2px solid rgb(197, 197, 197)
+    
+}
+
+.hijoabajo {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(117, 117, 117);
+    border: 2px solid rgb(197, 197, 197)
+    
+
+}
+
