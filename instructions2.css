@@ -1,5 +1,4 @@
-.padre {
-    display: flex;
+.container {
     flex-wrap: wrap;
     justify-content: center
     width: 950px;
@@ -7,7 +6,14 @@
     background-color: rgb(39, 39, 39);
 }
 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
 .hijoarriba {
+    margin-right: 100px;
     width: 200px;
     height: 200px;
     background-color: rgb(117, 117, 117);
@@ -15,12 +21,10 @@
     
 }
 
-.hijoabajo {
-    width: 200px;
-    height: 200px;
-    background-color: rgb(117, 117, 117);
-    border: 2px solid rgb(197, 197, 197)
-    
+image {
+width: 100px;    
+height: 100px;
+object-fit: cover;
 
 }
 
